@@ -1,4 +1,4 @@
-// Function to get IP address using a third-party service
+// Function to get IP address using a third-party service.
 async function getIPAddress() {
     try {
         const response = await fetch('https://api.ipify.org?format=json');
